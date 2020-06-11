@@ -8,7 +8,7 @@
 
 
 ## General info
-This project was bootstrapped with [React-bootstrap](react-bootstrap.github.io/).
+This project was bootstrapped with [React-bootstrap](https://react-bootstrap.github.io/).
 
 
 ## Technologies
