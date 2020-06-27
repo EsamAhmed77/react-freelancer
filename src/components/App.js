@@ -1,12 +1,13 @@
 import React from 'react';
 import container from "react-bootstrap/Container";
 import NavBar from "./Navbar/NavBar";
+import "./style/Main.scss";
 
 function App() {
   return (
-    <div className="container">
+    <container fluid>
       <NavBar/>
-    </div>
+    </container>
   );
 }
 

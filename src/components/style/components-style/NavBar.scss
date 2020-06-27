@@ -1,7 +1,55 @@
-.NavBar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 68px;
-    
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  background-color: #fff;
+  .nav-left,
+  .nav-right {
+    a {
+      vertical-align: middle;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: sans-serif;
+      &.logo {
+        img {
+          width: 140px;
+        }
+      }
+      &.nav-links {
+        margin: 0 5px;
+        padding: 0 15px;
+        color: #0e1724;
+        &:hover {
+          color: #007fed;
+        }
+      }
+      &.nav-btn {
+        position: relative;
+        padding: 10px 13px;
+        margin: 0 10px;
+        color: #f7f7f7;
+        font-weight: 600;
+        font-size: 14px;
+        background: linear-gradient(180deg,#fc8c14 0,#f77d0e);
+        border: 1px solid #f77d0e;
+        &:hover{
+          background: #f77d0e;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767.999px) {
+  .NavBar {
+    .nav-left {
+      a.nav-links:nth-child(2),
+      a.nav-links:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+  .nav-right a.nav-btn {
+    display: none;
+  }
 }
