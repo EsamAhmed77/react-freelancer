@@ -4,12 +4,12 @@
 	padding: 0 12px;
 	box-sizing: border-box;
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 	.our_container{
 		padding: 0 12px;
 	}
 }
-@media only screen and (max-width: 767.999px){
+@media only screen and (max-width: 767px){
 	.our_container{
 		padding: 0 8px;
 	}
