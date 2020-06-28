@@ -1,0 +1,19 @@
+.our_container{
+  margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 12px;
+	box-sizing: border-box;
+}
+@media only screen and (max-width: 1200px) {
+	.our_container{
+		padding: 0 12px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.our_container{
+		padding: 0 8px;
+	}
+}
+body{
+	height:10000px
+}
