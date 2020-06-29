@@ -1,13 +1,15 @@
-import React from 'react';
-import container from "react-bootstrap/Container";
+import React from "react";
+import Container from "react-bootstrap/Container";
 import NavBar from "./Navbar/NavBar";
 import "./style/Main.scss";
+import OurCarousel from "./Carousel/OurCarousel";
 
 function App() {
   return (
-    <container fluid>
-      <NavBar/>
-    </container>
+    <Container fluid className="fixing-padding">
+      <NavBar />
+      <OurCarousel />
+    </Container>
   );
 }
 
