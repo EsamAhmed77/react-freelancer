@@ -10,13 +10,13 @@ const OurCarousel = () => {
         fade={true}
         indicators={false}
         interval={4000}
-        pause={true}
+        pause={false}
         controls={false}
       >
         <Carousel.Item className="item">
           <img
             className="d-block w-100"
-            src={require("../../assets/images/house-675.webp")}
+            src="/nasa-675.jpg"
             alt="Hir FreeLancers & Find FreeLancing Jobs Online"
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
@@ -38,7 +38,29 @@ const OurCarousel = () => {
         <Carousel.Item className="item">
           <img
             className="d-block w-100"
-            src={require("../../assets/images/magazine-675.jpg")}
+            src="mobile-phone-675.jpg"
+            alt="Hir FreeLancers & Find FreeLancing Jobs Online"
+            title="Hir FreeLancers & Find FreeLancing Jobs Online"
+          />
+          <h2>This architectural design cost $500 USD and took 15 days</h2>
+          <Carousel.Caption className="our_container">
+            <h3> Hire the best freelancers for any job, online.</h3>
+            <p>
+              Millions of people use freelancer.com to turn their ideas into
+              reality.
+            </p>
+            <a href="#">
+              <span>hir a freelancer</span>
+            </a>
+            <a href="#">
+              <span>earn money freelancing</span>
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className="item">
+          <img
+            className="d-block w-100"
+            src="house-675.webp"
             alt="Hir FreeLancers & Find FreeLancing Jobs Online"
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
@@ -55,34 +77,12 @@ const OurCarousel = () => {
             <a className="carousel_btn_2" href="#">
               <span>earn money freelancing</span>
             </a>
-          </Carousel.Caption>
+          </Carousel.Caption >
         </Carousel.Item>
         <Carousel.Item className="item">
           <img
             className="d-block w-100"
-            src={require("../../assets/images/nasa-675.jpg")}
-            alt="Hir FreeLancers & Find FreeLancing Jobs Online"
-            title="Hir FreeLancers & Find FreeLancing Jobs Online"
-          />
-          <h2>This architectural design cost $500 USD and took 15 days</h2>
-          <Carousel.Caption className="our_container">
-            <h3> Hire the best freelancers for any job, online.</h3>
-            <p>
-              Millions of people use freelancer.com to turn their ideas into
-              reality.
-            </p>
-            <a className="carousel_btn_1" href="#">
-              <span>hir a freelancer</span>
-            </a>
-            <a className="carousel_btn_2" href="#">
-              <span>earn money freelancing</span>
-            </a>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className="item">
-          <img
-            className="d-block w-100"
-            src={require("../../assets/images/mobile-phone-675.jpg")}
+            src="magazine-675.jpg"
             alt="Hir FreeLancers & Find FreeLancing Jobs Online"
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />

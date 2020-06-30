@@ -6,7 +6,7 @@ import OurCarousel from "./Carousel/OurCarousel";
 
 function App() {
   return (
-    <Container fluid className="fixing-padding">
+    <Container fluid className="p-0">
       <NavBar />
       <OurCarousel />
     </Container>
