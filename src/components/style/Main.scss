@@ -1,19 +1,26 @@
-.our_container{
+.our_container {
   margin: 0 auto;
-	max-width: 1200px;
-	padding: 0 12px;
-	box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0 12px;
+  box-sizing: border-box;
 }
 @media only screen and (max-width: 1200px) {
-	.our_container{
-		padding: 0 12px;
-	}
+  .our_container {
+    padding: 0 12px;
+  }
 }
-@media only screen and (max-width: 767px){
-	.our_container{
-		padding: 0 8px;
-	}
+@media only screen and (max-width: 767px) {
+  .our_container {
+    padding: 0 8px;
+  }
 }
-body{
-	height:10000px
+body {
+  height: 10000px;
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
 }
