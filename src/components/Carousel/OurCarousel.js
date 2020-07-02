@@ -27,10 +27,10 @@ const OurCarousel = () => {
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a className="carousel_btn_1" href="#">
+            <a className="carousel_btn_1" href="\">
               <span>hir a freelancer</span>
             </a>
-            <a className="carousel_btn_2" href="#">
+            <a className="carousel_btn_2" href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption>
@@ -49,10 +49,10 @@ const OurCarousel = () => {
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a href="#">
+            <a href="\">
               <span>hir a freelancer</span>
             </a>
-            <a href="#">
+            <a href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption>
@@ -71,10 +71,10 @@ const OurCarousel = () => {
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a className="carousel_btn_1" href="#">
+            <a className="carousel_btn_1" href="\">
               <span>hir a freelancer</span>
             </a>
-            <a className="carousel_btn_2" href="#">
+            <a className="carousel_btn_2" href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption >
@@ -93,10 +93,10 @@ const OurCarousel = () => {
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a className="carousel_btn_1" href="#">
+            <a className="carousel_btn_1" href="\">
               <span>hir a freelancer</span>
             </a>
-            <a className="carousel_btn_2" href="#">
+            <a className="carousel_btn_2" href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption>
