@@ -1,0 +1,22 @@
+.companies{
+  position: relative;
+  height: 100px;
+  display: flex; 
+  align-items: center;
+  &::after{
+    position: absolute;
+    bottom:0;
+    margin-left: auto;
+    content: " ";
+    max-width: 1200px !important;
+    width:100%;
+    border-bottom: 2px solid rgba(179, 179, 179, 0.5);
+
+  }
+  .company_span{
+    span{
+      font-size: 20px;
+      color: rgba(179, 179, 179, 0.5);
+    }
+  }
+}
