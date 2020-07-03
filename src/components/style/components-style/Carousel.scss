@@ -69,21 +69,22 @@
     }
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   .carousel-item {
-    height: 550px;
+    height: 500px;
     h2 {
       display: none;
     }
     img {
-      width: 180% !important;
-      height: 100% !important;
+      width: 170% !important;
+      height: 115%;
       position: absolute;
       right: -10%;
       top: -10%;
     }
     .carousel-caption {
       left: 0 !important;
+      bottom: 200px !important;
       width: 100% !important;
       padding: 0 25px !important;
       a {
@@ -96,6 +97,36 @@
     }
   }
 }
+@media only screen and (max-width: 599px) {
+  .carousel-item {
+    height: 500px;
+    h2 {
+      display: none;
+    }
+    img {
+      width: 170% !important;
+      height: 115%;
+      position: absolute;
+      right: -10%;
+      top: -10%;
+    }
+    .carousel-caption {
+      left: 0 !important;
+      bottom: 210px !important;
+      width: 100% !important;
+      padding: 0 25px !important;
+      a {
+        display: block !important;
+        width: 100% !important;
+        &:first-of-type {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   .carousel-item {
     h2 {
@@ -103,6 +134,7 @@
     }
     .carousel-caption {
       left: 15px !important;
+      bottom: 45
     }
   }
 }
