@@ -1,11 +1,8 @@
 .NavBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 64px;
   background-color: #fff;
-  .nav-left,
-  .nav-right {
+  .nav_left,
+  .nav_right {
     a {
       vertical-align: middle;
       text-decoration: none;
@@ -16,7 +13,7 @@
           width: 138px;
         }
       }
-      &.nav-links {
+      &.nav_links {
         margin: 0 5px;
         padding: 0 15px;
         color: #0e1724;
@@ -24,7 +21,7 @@
           color: #007fed;
         }
       }
-      &.nav-btn {
+      &.nav_btn {
         position: relative;
         padding: 10px 13px;
         margin: 0 10px;
@@ -42,14 +39,14 @@
 }
 @media only screen and (max-width: 768px) {
   .NavBar {
-    .nav-left {
-      a.nav-links:nth-child(2),
-      a.nav-links:nth-child(3) {
+    .nav_left {
+      a.nav_links:nth-child(2),
+      a.nav_links:nth-child(3) {
         display: none;
       }
     }
   }
-  .nav-right a.nav-btn {
+  .nav_right a.nav_btn {
     display: none;
   }
 }

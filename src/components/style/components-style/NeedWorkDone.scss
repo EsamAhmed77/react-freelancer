@@ -1,0 +1,29 @@
+.need_work_done {
+  padding: 70px 0;
+  .work_title {
+    margin-bottom: 50px;
+  }
+  span {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .job {
+    width: 330px;
+    img {
+      width: 85%;
+      margin-bottom: 20px;
+    }
+    .job_title {
+      font-size: 22px;
+    }
+    .job_description {
+      margin-top: 20px;
+      font-size: 18px;
+      color: rgb(100, 100, 100);
+      font-weight: 600;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+}

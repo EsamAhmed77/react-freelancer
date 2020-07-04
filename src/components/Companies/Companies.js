@@ -6,56 +6,59 @@ import Col from "react-bootstrap/Col";
 
 const Companies = () => {
   return (
-    <div className="our_container p-0
-    ">
+    <div
+      className="our_container p-0
+    "
+      title="Hir FreeLancers & Find FreeLancing Jobs Online"
+    >
       <Row className="m-0">
-        <div className="companies">
+        <div className="companies d-flex align-items-center p-0">
           <Col className="company_span col-md-auto">
             <span>As used by</span>
           </Col>
-          <Col >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/amazon_logo2.svg"
               alt="amazon"
             />
           </Col>
-          <Col >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/companies/microsoft.svg"
               alt="microsoft"
             />
           </Col>
-          <Col >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/facebook-corporate-logo2.svg"
               alt="facebook"
             />
           </Col>
-          <Col >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/deloitte-logo2.svg"
               alt="deloitte"
             />
           </Col>
-          <Col >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/novo-nordisk-logo2.svg"
               alt="novo"
             />
           </Col>
-          <Col >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/nasa-logo2.svg"
               alt="nasa"
             />
           </Col>
-          <Col >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/ibm-logo2.svg"
               alt="ibm"
             />
           </Col>
-          <Col className="" >
+          <Col>
             <img
               src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/airbus-logo2.svg"
               alt="airbus"
