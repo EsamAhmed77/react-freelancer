@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="our_container">
       <div className="NavBar d-flex justify-content-between align-items-center">
-        <div className="nav_left">
+        <div className="nav_left d-flex align-items-center justify-content-between">
           <a href="\" className="logo">
             <img
               alt=""
@@ -20,7 +20,7 @@ const Navbar = () => {
             Browse Jobs
           </a>
         </div>
-        <div className="nav_right">
+        <div className="nav_right d-flex align-items-center justify-content-between">
           <a href="\" className="nav_links">
             Log In
           </a>
