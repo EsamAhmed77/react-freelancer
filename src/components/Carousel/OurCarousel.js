@@ -12,6 +12,7 @@ const OurCarousel = () => {
         interval={4000}
         pause={false}
         controls={false}
+        title="Hir FreeLancers & Find FreeLancing Jobs Online"
       >
         <Carousel.Item className="item">
           <img
@@ -21,16 +22,16 @@ const OurCarousel = () => {
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
-          <Carousel.Caption className="our_container">
-            <h3>Hire the best freelancers for any job, online.</h3>
-            <p>
+          <Carousel.Caption className="our_container p-0 m-0 text-left">
+            <h3 className="d-block">Hire the best freelancers for any job, online.</h3>
+            <p className=" d-block">
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a className="carousel_btn_1" href="\">
+            <a className="carousel_btn_1 d-inline-block" href="\">
               <span>hir a freelancer</span>
             </a>
-            <a className="carousel_btn_2" href="\">
+            <a className="carousel_btn_2 d-inline-block" href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption>
@@ -43,16 +44,16 @@ const OurCarousel = () => {
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
-          <Carousel.Caption className="our_container">
-            <h3> Hire the best freelancers for any job, online.</h3>
-            <p>
+          <Carousel.Caption className="our_container p-0 m-0 text-left">
+            <h3 className="d-block"> Hire the best freelancers for any job, online.</h3>
+            <p className=" d-block">
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a href="\">
+            <a className="carousel_btn_1 d-inline-block" href="\">
               <span>hir a freelancer</span>
             </a>
-            <a href="\">
+            <a className="carousel_btn_2 d-inline-block" href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption>
@@ -65,16 +66,16 @@ const OurCarousel = () => {
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
-          <Carousel.Caption className="our_container">
-            <h3> Hire the best freelancers for any job, online.</h3>
-            <p>
+          <Carousel.Caption className="our_container p-0 m-0 text-left">
+            <h3 className="d-block"> Hire the best freelancers for any job, online.</h3>
+            <p className=" d-block">
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a className="carousel_btn_1" href="\">
+            <a className="carousel_btn_1 d-inline-block" href="\">
               <span>hir a freelancer</span>
             </a>
-            <a className="carousel_btn_2" href="\">
+            <a className="carousel_btn_2 d-inline-block" href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption >
@@ -87,16 +88,16 @@ const OurCarousel = () => {
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
-          <Carousel.Caption className="our_container">
-            <h3> Hire the best freelancers for any job, online.</h3>
-            <p>
+          <Carousel.Caption className="our_container p-0 m-0 text-left">
+            <h3 className="d-block"> Hire the best freelancers for any job, online.</h3>
+            <p className=" d-block">
               Millions of people use freelancer.com to turn their ideas into
               reality.
             </p>
-            <a className="carousel_btn_1" href="\">
+            <a className="carousel_btn_1 d-inline-block" href="\">
               <span>hir a freelancer</span>
             </a>
-            <a className="carousel_btn_2" href="\">
+            <a className="carousel_btn_2 d-inline-block" href="\">
               <span>earn money freelancing</span>
             </a>
           </Carousel.Caption>

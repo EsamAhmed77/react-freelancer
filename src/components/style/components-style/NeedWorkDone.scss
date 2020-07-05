@@ -1,0 +1,68 @@
+.need_work_done {
+  padding: 70px 0;
+  flex-direction: column;
+  display: flex;
+  .work_title {
+    margin-bottom: 50px;
+  }
+  span {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .jobs_type {
+    .job {
+      img {
+        margin-bottom: 20px;
+      }
+      .job_title {
+        font-size: 22px;
+      }
+      .job_description {
+        margin-top: 25px;
+        font-size: 18px;
+        color: rgb(39, 39, 39);
+        font-weight: 600;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .jobs_type {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    .job {
+      flex-basis: 30%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .need_work_done {
+    padding: 70px 10px;
+    .work_title {
+      span {
+        font-size: 26px;
+      }
+    }
+    .jobs_type {
+      .job {
+        padding: 0 10px;
+        margin-bottom: 40px;
+        img{
+          width: 300px;
+        }
+        .job_title {
+          font-size: 18px;
+        }
+        .job_description {
+          margin-top: 15px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
