@@ -36,16 +36,19 @@
     }
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .NavBar {
     .nav_left {
+      padding-left: 12px;
       a.nav_links:nth-child(2),
       a.nav_links:nth-child(3) {
         display: none;
       }
     }
   }
-  .nav_right a.nav_btn {
+  .nav_right{
+    padding-right: 12px; 
+    a.nav_btn {
     display: none;
   }
-}
+}}
