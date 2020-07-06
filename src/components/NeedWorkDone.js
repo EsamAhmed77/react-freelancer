@@ -1,7 +1,8 @@
 import React from "react";
-import "../style/components-style/NeedWorkDone.scss";
-import "../style/Main.scss";
 import { Image } from "react-bootstrap";
+
+import "./style/NeedWorkDone.scss";
+import "./style/Main.scss";
 
 const NeedWorkDone = () => {
   return (
