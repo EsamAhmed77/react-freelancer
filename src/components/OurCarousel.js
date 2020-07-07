@@ -6,7 +6,7 @@ import "./style/Main.scss";
 
 const OurCarousel = () => {
   return (
-    <div className="our_carousel">
+    <div className="our-carousel">
       <Carousel
         fade={true}
         indicators={false}
@@ -24,7 +24,7 @@ const OurCarousel = () => {
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
           <div
-            className="our_container d-flex
+            className="our-container d-flex
           "
           >
             <div className="carousel_caption text-left">
@@ -36,10 +36,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel_btn_1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel_btn_2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>
@@ -54,7 +54,7 @@ const OurCarousel = () => {
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
           <div
-            className="our_container d-flex
+            className="our-container d-flex
           "
           >
             <div className="carousel_caption text-left">
@@ -66,10 +66,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel_btn_1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel_btn_2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>
@@ -84,7 +84,7 @@ const OurCarousel = () => {
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
           <div
-            className="our_container d-flex
+            className="our-container d-flex
           "
           >
             <div className="carousel_caption text-left">
@@ -96,10 +96,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel_btn_1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel_btn_2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>
@@ -114,7 +114,7 @@ const OurCarousel = () => {
           />
           <h2>This architectural design cost $500 USD and took 15 days</h2>
           <div
-            className="our_container d-flex
+            className="our-container d-flex
           "
           >
             <div className="carousel_caption text-left">
@@ -126,10 +126,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel_btn_1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel_btn_2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>

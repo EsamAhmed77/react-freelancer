@@ -1,4 +1,4 @@
-.our_carousel {
+.our-carousel {
   .carousel-item {
     position: relative;
     width: 100%;
@@ -63,40 +63,46 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  .our_container {
-    padding: 0 !important;
-  }
-  .carousel-item {
-    height: 500px;
-    img {
-      width: 170% !important;
-      height: 115%;
-      position: absolute;
-      right: -10%;
-      top: -10%;
-    }
-    .carousel_caption {
-      display: flex;
-      flex-direction: column;
-      width: 100% !important;
-      bottom: 45% !important;
-      padding: 0 20px;
-      a {
-        &:first-of-type {
-          margin-bottom: 15px;
+  .our-carousel {
+    .carousel-item {
+      height: 500px;
+      .our-container {
+        padding: 0;
+      }
+      img {
+        width: 170% !important;
+        height: 115%;
+        position: absolute;
+        right: -10%;
+        top: -10%;
+      }
+      .carousel_caption {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        bottom: 45% !important;
+        padding: 0 20px;
+        a {
+          &:first-of-type {
+            margin-bottom: 15px;
+          }
+          margin-right: 0 !important;
         }
-        margin-right: 0 !important;
       }
     }
   }
 }
-@media (min-width: 768px){
-  .our_container{
-    padding: 0 12px !important;
-  } 
+@media (min-width: 768px) {
+  .our-carousel {
+    .carousel-item {
+      .our-container {
+        padding: 0 12px !important;
+      }
+    }
+  }
 }
-@media (min-width: 1200px){
-  h2{
+@media (min-width: 1200px) {
+  h2 {
     opacity: 1 !important ;
   }
 }

@@ -1,16 +1,16 @@
-.our_container {
+.our-container {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 12px;
   box-sizing: border-box;
 }
-@media (min-width: 768px) and (max-width: 1200px) {
-  .our_container {
+@media (min-width: 768px) {
+  .our-container {
     padding: 0 12px;
   }
 }
 @media (max-width: 767px) {
-  .our_container {
+  .our-container {
     padding: 0 20px;
   }
 }

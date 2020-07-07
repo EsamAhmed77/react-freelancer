@@ -1,54 +1,59 @@
-.NavBar {
-  height: 64px;
-  background-color: #fff;
-  .nav_left,
-  .nav_right {
-    a {
-      vertical-align: middle;
-      text-decoration: none;
-      font-size: 16px;
-      font-family: sans-serif;
-      &.logo {
-        img {
-          width: 138px;
+.our-navbar {
+  .NavBar {
+    height: 64px;
+    background-color: #fff;
+    .nav-left,
+    .nav-right {
+      a {
+        vertical-align: middle;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: sans-serif;
+        &.logo {
+          img {
+            width: 138px;
+          }
         }
-      }
-      &.nav_links {
-        margin: 0 5px;
-        padding: 0 15px;
-        color: #0e1724;
-        &:hover {
-          color: #007fed;
+        &.nav-links {
+          margin: 0 5px;
+          padding: 0 15px;
+          color: #0e1724;
+          &:hover {
+            color: #007fed;
+          }
         }
-      }
-      &.nav_btn {
-        padding: 10px 13px;
-        margin: 0 10px;
-        color: #f7f7f7;
-        font-weight: 600;
-        font-size: 14px;
-        background: linear-gradient(180deg,#fc8c14 0,#f77d0e);
-        border: 1px solid #f77d0e;
-        &:hover{
-          background: #f77d0e;
+        &.nav-btn {
+          padding: 10px 13px;
+          margin: 0 10px;
+          color: #f7f7f7;
+          font-weight: 600;
+          font-size: 14px;
+          background: linear-gradient(180deg, #fc8c14 0, #f77d0e);
+          border: 1px solid #f77d0e;
+          &:hover {
+            background: #f77d0e;
+          }
         }
       }
     }
   }
 }
-@media (max-width: 768px) {
-  .NavBar {
-    .nav_left {
-      padding-left: 12px;
-      a.nav_links:nth-child(2),
-      a.nav_links:nth-child(3) {
+@media (max-width: 767px) {
+  .our-navbar {
+    .NavBar {
+      .nav-left {
+        padding-left: 12px;
+        a.nav-links:nth-child(2),
+        a.nav-links:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+    .nav-right {
+      padding-right: 12px;
+      a.nav-btn {
         display: none;
       }
     }
   }
-  .nav_right{
-    padding-right: 12px; 
-    a.nav_btn {
-    display: none;
-  }
-}}
+}
