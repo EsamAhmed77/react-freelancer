@@ -1,0 +1,62 @@
+.WGAI-container {
+  .what-great-about-it {
+		padding: 60px 0;
+    .WGAI-title {
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      font-weight: 700;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .WGAI-items {
+      .item-title {
+        font-size: 22px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        vertical-align: middle;
+      }
+    }
+    .item-description {
+      font-size: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.4;
+      color: rgb(39, 39, 39);
+    }
+  }
+}
+.padding-r{
+	padding: 0 12px !important;
+}
+@media (max-width: 767px) {
+  .WGAI-container {
+    padding: 0 5px;
+    .what-great-about-it {
+      .WGAI-title {
+        font-size: 22px;
+      }
+      .WGAI-items {
+        .item-title {
+          font-size: 16px;
+        }
+      }
+      .item-description {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .WGAI-container {
+    .what-great-about-it {
+      .WGAI-title {
+      }
+      .WGAI-items {
+        .item-title {
+        }
+      }
+      .item-description {
+				font-size: 20px;
+      }
+    }
+  }
+}

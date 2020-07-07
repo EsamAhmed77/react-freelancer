@@ -7,6 +7,7 @@ import NavBar from "./NavBar";
 import OurCarousel from "./OurCarousel";
 import Companies from "./Companies";
 import NeedWorkDone from "./NeedWorkDone";
+import WhatGeatAboutIt from "./WhatGreatAboutIt"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <OurCarousel />
       <Companies />
       <NeedWorkDone />
+      <WhatGeatAboutIt />
     </Container>
   );
 }

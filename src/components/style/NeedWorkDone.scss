@@ -1,8 +1,9 @@
-.need_work_done {
-  padding: 70px 0;
+.need-work-done {
+  padding: 90px 0 0;
   flex-direction: column;
   display: flex;
-  .work_title {
+
+  .work-title {
     margin-bottom: 50px;
   }
   span {
@@ -11,18 +12,19 @@
     font-weight: 700;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
-  .jobs_type {
+  .jobs-type {
     .job {
+      margin-bottom: 20px;
       img {
         margin-bottom: 20px;
       }
-      .job_title {
+      .job-title {
         font-size: 22px;
       }
-      .job_description {
+      .job-description {
         margin-top: 25px;
         font-size: 18px;
-        color: rgb(39, 39, 39);
+        color: rgb(105, 105, 105);
         font-weight: 600;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.5;
@@ -31,34 +33,36 @@
   }
 }
 @media (min-width: 768px) {
-  .jobs_type {
+  .jobs-type {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     .job {
-      flex-basis: 30%;
+      flex-basis: 29%;
     }
   }
 }
 @media (max-width: 767px) {
-  .need_work_done {
-    padding: 70px 10px;
-    .work_title {
+  .need-work-done {
+    padding: 70px 10px 0;
+    .work-title {
       span {
         font-size: 26px;
       }
     }
-    .jobs_type {
+    .jobs-type {
       .job {
         padding: 0 10px;
-        margin-bottom: 40px;
-        img{
+        &:last-of-type{
+          margin-bottom: 0;
+        }
+        img {
           width: 300px;
         }
-        .job_title {
+        .job-title {
           font-size: 18px;
         }
-        .job_description {
+        .job-description {
           margin-top: 15px;
           font-size: 16px;
         }
