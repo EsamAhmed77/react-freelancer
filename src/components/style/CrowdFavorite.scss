@@ -1,0 +1,14 @@
+.crowd-favorite {
+  padding: 90px 5px;
+  background: #f7f7f7;
+  .cf-title,
+  .cf-popular-projects {
+    font-weight: 700;
+    font-family: sans-serif;
+		color: #0e1724;
+		margin-bottom: 20px;
+		&.cf-popular-projects{
+			font-size: 30px;
+		}
+  }
+}
