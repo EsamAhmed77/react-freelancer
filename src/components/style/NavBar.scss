@@ -42,7 +42,6 @@
   .our-navbar {
     .NavBar {
       .nav-left {
-        padding-left: 12px;
         a.nav-links:nth-child(2),
         a.nav-links:nth-child(3) {
           display: none;
@@ -50,7 +49,6 @@
       }
     }
     .nav-right {
-      padding-right: 12px;
       a.nav-btn {
         display: none;
       }

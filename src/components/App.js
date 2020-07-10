@@ -9,6 +9,7 @@ import Companies from "./Companies";
 import NeedWorkDone from "./NeedWorkDone";
 import WhatGreatAboutIt from "./WhatGreatAboutIt";
 import CrowdFavorite from "./CrowdFavorite";
+import GetWorkDone from "./GetWorkDone";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <NeedWorkDone />
       <WhatGreatAboutIt />
       <CrowdFavorite />
+      <GetWorkDone />
     </Container>
   );
 }
