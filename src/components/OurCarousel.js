@@ -36,10 +36,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel-btn-1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block text-center" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel-btn-2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block text-center" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>
@@ -48,7 +48,7 @@ const OurCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="house-675.webp"
+            src="magazine-675.jpg"
             alt="Hir FreeLancers & Find FreeLancing Jobs Online"
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
@@ -66,10 +66,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel-btn-1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block text-center" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel-btn-2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block text-center" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>
@@ -78,7 +78,7 @@ const OurCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="house-675.webp"
+            src="mobile-phone-675.jpg"
             alt="Hir FreeLancers & Find FreeLancing Jobs Online"
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
@@ -96,10 +96,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel-btn-1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block text-center" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel-btn-2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block text-center" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>
@@ -108,7 +108,7 @@ const OurCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="house-675.webp"
+            src="nasa-675.jpg"
             alt="Hir FreeLancers & Find FreeLancing Jobs Online"
             title="Hir FreeLancers & Find FreeLancing Jobs Online"
           />
@@ -126,10 +126,10 @@ const OurCarousel = () => {
                 Millions of people use freelancer.com to turn their ideas into
                 reality.
               </p>
-              <a className="carousel-btn-1 d-inline-block" href="\">
+              <a className="carousel-btn-1 d-inline-block text-center" href="\">
                 <span>hir a freelancer</span>
               </a>
-              <a className="carousel-btn-2 d-inline-block" href="\">
+              <a className="carousel-btn-2 d-inline-block text-center" href="\">
                 <span>earn money freelancing</span>
               </a>
             </div>

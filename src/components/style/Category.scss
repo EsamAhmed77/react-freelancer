@@ -1,0 +1,31 @@
+.category-container {
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+  .category {
+    height: 104px;
+    text-align: center;
+    margin-bottom: 24px;
+    .category-img {
+      margin-bottom: 15px;
+      vertical-align: baseline;
+    }
+    .category-type {
+      line-height: 1.2;
+      font-size: 13px;
+      color: rgb(24, 24, 24);
+    }
+  }
+}
+@media (max-width: 991px) {
+  .category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f3f3f3 ;
+  }
+  .category-type {
+    font-size: 14px !important;
+  }
+}
+
