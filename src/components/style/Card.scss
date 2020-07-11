@@ -65,3 +65,14 @@
     transform: scale(1.1);
   }
 }
+
+@media (max-width: 995px) {
+  .card-link {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 767px){
+  .img-btn {
+    font-size: 14px !important;
+  }
+}
