@@ -7,7 +7,7 @@ import Category from "./Blocks/CategoryBlock";
 
 const GetWorkDone = () => {
   return (
-    <div className="get-work-done">
+    <div className="get-work-done" title="Hir FreeLancers & Find FreeLancing Jobs Online" >
       <div className="our-container">
         <Row>
           <Col xs={12} className="text-center">

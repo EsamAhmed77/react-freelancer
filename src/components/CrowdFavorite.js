@@ -8,7 +8,10 @@ import CardBlock from "./Blocks/CardBlock";
 
 const CrowdFavorite = () => {
   return (
-    <div className="crowd-favorite">
+    <div
+      className="crowd-favorite"
+      title="Hir FreeLancers & Find FreeLancing Jobs Online"
+    >
       <div className="our-container">
         <Row className="mb-3 pr-3 pl-3">
           <Col xs={12} className="text-center">

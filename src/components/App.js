@@ -10,6 +10,7 @@ import NeedWorkDone from "./NeedWorkDone";
 import WhatGreatAboutIt from "./WhatGreatAboutIt";
 import CrowdFavorite from "./CrowdFavorite";
 import GetWorkDone from "./GetWorkDone";
+import ApiEnterprise from "./ApiEnterprise";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <WhatGreatAboutIt />
       <CrowdFavorite />
       <GetWorkDone />
+      <ApiEnterprise />
     </Container>
   );
 }
