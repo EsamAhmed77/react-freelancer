@@ -24,7 +24,7 @@ export const JobsCategory = (props) => {
   return (
     <div className="jobs-category-container">
       <div className="jobs-category">
-        <i class="fas fa-caret-right"></i>
+        <i className="fas fa-caret-right"></i>
         <a className="jc-link" href="/">
           {props.job}
         </a>
