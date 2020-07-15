@@ -22,10 +22,27 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #f3f3f3 ;
+    background: #f3f3f3;
   }
   .category-type {
     font-size: 14px !important;
   }
 }
 
+.jobs-category {
+  margin-bottom: 5px;
+  i {
+    color: #ffc24e;
+    font-size: 14px;
+  }
+  .jc-link {
+    display: inline-flex;
+    margin-left: 10px;
+    width: 80%;
+    font-size: 15px;
+    color: #0e1724;
+    &:hover {
+      color: rgb(47, 47, 212);
+    }
+  }
+}

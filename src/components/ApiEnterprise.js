@@ -36,7 +36,7 @@ const ApiEnterprise = () => {
               <div className="enterprise-img"></div>
               <div className="enterprise-details">
                 <div className="details">
-                  <span className="enterprise-title">FREELANCER API</span>
+                  <span className="enterprise-title">FREELANCER ENTERPRISE</span>
                   <h5 className="enterprise-header">
                     Company budget? Get more done for less
                   </h5>
