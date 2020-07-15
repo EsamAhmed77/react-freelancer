@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import "./style/GetWorkDone.scss";
-import Category from "./Blocks/CategoryBlock";
+import { Category } from "./Blocks/CategoryBlock";
 
 const GetWorkDone = () => {
   return (

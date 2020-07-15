@@ -1,0 +1,25 @@
+.top-jobs-categories {
+  padding: 30px 0 50px;
+  .our-container {
+    padding: 0;
+    .title-row {
+      .jobs-category-header {
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+    }
+    .jobs-row {
+      column-count: 4;
+      padding: 0 12px;
+      @media (min-width: 768px) {
+        padding: 0 20px;
+      }
+      @media (max-width: 649px) {
+        column-count: 3;
+      }
+      .jobs {
+      }
+    }
+  }
+}

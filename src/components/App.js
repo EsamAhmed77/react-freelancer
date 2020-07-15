@@ -11,6 +11,7 @@ import WhatGreatAboutIt from "./WhatGreatAboutIt";
 import CrowdFavorite from "./CrowdFavorite";
 import GetWorkDone from "./GetWorkDone";
 import ApiEnterprise from "./ApiEnterprise";
+import TopJobsCategories from "./TopJobsCategories";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <CrowdFavorite />
       <GetWorkDone />
       <ApiEnterprise />
+      <TopJobsCategories />
     </Container>
   );
 }
