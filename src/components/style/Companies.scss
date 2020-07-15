@@ -52,7 +52,8 @@
       .companies {
         height: 100px;
         .companies-logo {
-          margin-right: 10px;
+          display: inline-block;
+          margin: 0 15px 0 0;
           &:last-of-type {
             margin-right: 0;
           }

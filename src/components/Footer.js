@@ -121,8 +121,8 @@ const Footer = () => {
                   </Col>
                   <Col className="col-padding-12 column" xs={12} md={3}>
                     <div className="list-title">Apps</div>
-                    <div className="stores mb-4">
-                      <div className="app-store mb-4">
+                    <div className="stores">
+                      <div className="app-store">
                         <a href="/">
                           <img
                             src="https://www.f-cdn.com/assets/main/en/assets/footer/app-store.svg"
