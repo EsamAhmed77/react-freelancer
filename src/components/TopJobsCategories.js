@@ -5,7 +5,7 @@ import { JobsCategory } from "./Blocks/CategoryBlock";
 const TopJobsCategories = () => {
   return (
     <div className="top-jobs-categories">
-      <div className="our-container">
+      <div className="our-container p-0">
         <div className="title-row text-center">
           <h2 className="jobs-category-header">Browse top job categories</h2>
         </div>
