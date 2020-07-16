@@ -19,27 +19,22 @@
       width: 550px;
       max-width: 1200px;
       transition: all ease-in-out 0.3s;
+      h3,
+      p,
+      a {
+        color: #f7f7f7;
+        font-size: 20px;
+      }
       h3 {
         font-size: 48px;
         font-weight: 600;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        color: #f7f7f7;
         margin-bottom: 20px;
-      }
-      p {
-        font-size: 20px;
-        color: #f7f7f7;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
       a {
         margin-right: 15px;
         padding: 12px 22px;
-        color: #f7f7f7;
-        background: red;
         text-transform: capitalize;
-        font-size: 20px;
         font-weight: 700;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         &:hover {
           text-decoration: none;
         }
@@ -49,15 +44,11 @@
         &:last-of-type {
           border: 1px solid #f7f7f7;
           padding: 11px 21px;
-          background: linear-gradient(
-            180deg,
-            rgba(0, 0, 0, 0),
-            rgba(179, 179, 179, 0.5)
-          );
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0),rgba(179, 179, 179, 0.5));
         }
-        span {
-          vertical-align: auto;
-        }
+      }
+      span {
+        vertical-align: middle;
       }
     }
   }
@@ -88,15 +79,6 @@
           }
           margin-right: 0 !important;
         }
-      }
-    }
-  }
-}
-@media (min-width: 768px) {
-  .our-carousel {
-    .carousel-item {
-      .our-container {
-        padding: 0 12px !important;
       }
     }
   }

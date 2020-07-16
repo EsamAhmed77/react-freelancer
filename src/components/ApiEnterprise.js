@@ -9,7 +9,7 @@ const ApiEnterprise = () => {
       className="api-enterprise"
       title="Hir FreeLancers & Find FreeLancing Jobs Online"
     >
-      <div className="our-container">
+      <div className="our-container p-0">
         <Row className=" justify-content-around">
           <Col className="column" xs={12} sm={12} md={6}>
             <div className="api">

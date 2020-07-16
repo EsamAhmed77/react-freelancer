@@ -29,7 +29,6 @@ const OurCarousel = () => {
           >
             <div className="carousel_caption text-left">
               <h3 className="d-block">
-                {" "}
                 Hire the best freelancers for any job, online.
               </h3>
               <p className=" d-block">
@@ -59,7 +58,6 @@ const OurCarousel = () => {
           >
             <div className="carousel_caption text-left">
               <h3 className="d-block">
-                {" "}
                 Hire the best freelancers for any job, online.
               </h3>
               <p className=" d-block">
@@ -89,7 +87,6 @@ const OurCarousel = () => {
           >
             <div className="carousel_caption text-left">
               <h3 className="d-block">
-                {" "}
                 Hire the best freelancers for any job, online.
               </h3>
               <p className=" d-block">
@@ -119,7 +116,6 @@ const OurCarousel = () => {
           >
             <div className="carousel_caption text-left">
               <h3 className="d-block">
-                {" "}
                 Hire the best freelancers for any job, online.
               </h3>
               <p className=" d-block">
