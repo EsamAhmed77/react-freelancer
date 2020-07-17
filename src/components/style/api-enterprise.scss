@@ -1,77 +1,51 @@
 .api-enterprise {
   padding: 30px 0;
-  .api {
+  .our-container {
+    @media (min-width: 768px) and (max-width: 1199px) {
+      padding: 0;
+    }
+    @media (max-width: 599px) {
+      padding: 0;
+    }
+  }
+  .api,
+  .enterprise {
     display: flex;
-    background: #f0f0f0 -150px 0 no-repeat;
+    background: #f0f0f0 no-repeat;
     height: 286px;
     box-shadow: 0 0 4px #cfcdcd;
+    &.api {
+      @media (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+    }
     .api-img {
-      height: auto;
       flex-basis: 50%;
       background-image: url(https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/api_upsell.png);
       background-position: top right;
       background-repeat: no-repeat;
     }
-    .api-details {
-      flex-basis: 50%;
-      text-align: right;
-      padding: 24px;
-      background: transparent;
-      .details {
-        height: 200px;
-        margin-bottom: 5px;
-        .api-title {
-          font-size: 14px;
-          font-weight: 500;
-          color: #007bff;
-          display: block;
-          margin-bottom: 16px;
-        }
-        .api-header {
-          font-weight: 700;
-          margin-bottom: 20px;
-          color: #0e1724;
-        }
-        .api-description {
-          line-height: 1.5;
-          color: 0e1724;
-          margin-bottom: 25px;
-        }
-      }
-      .api-btn {
-        padding: 10px 12px;
-        background: #007bff;
-        color: rgb(238, 238, 238);
-        text-transform: capitalize;
-        font-size: 14px;
-        font-weight: 700;
-        text-decoration: none;
-      }
-    }
-  }
-  .enterprise {
-    display: flex;
-    background: #f0f0f0 -150px 0 no-repeat;
-    height: 286px;
-    max-width: none;
-    box-shadow: 0 0 4px #cfcdcd;
     .enterprise-img {
       order: 2;
-      height: auto;
       flex-basis: 50%;
       background-image: url(https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/enterprise_upsell.png);
       background-position: top left;
       background-repeat: no-repeat;
     }
+    .api-details,
     .enterprise-details {
-      order: 1;
       flex-basis: 50%;
-      text-align: left;
+      text-align: right;
       padding: 24px;
       background: transparent;
+      &.enterprise-details {
+        order: 1;
+        text-align: left;
+      }
       .details {
         height: 200px;
         margin-bottom: 5px;
+        .api-title,
         .enterprise-title {
           font-size: 14px;
           font-weight: 500;
@@ -79,17 +53,19 @@
           display: block;
           margin-bottom: 16px;
         }
+        .api-header,
         .enterprise-header {
           font-weight: 700;
           margin-bottom: 20px;
           color: #0e1724;
         }
+        .api-description,
         .enterprise-description {
-          line-height: 1.5;
-          color: 0e1724;
+          color: #0e1724;
           margin-bottom: 25px;
         }
       }
+      .api-btn,
       .enterprise-btn {
         padding: 10px 12px;
         background: #007bff;
@@ -105,40 +81,17 @@
 .column {
   padding: 0 12px !important;
   transition: all ease-in-out 0.1s;
-}
-@media (min-width: 768px) and (max-width: 1199px) {
-  .api-enterprise {
-    .our-container {
-      padding: 0;
-    }
-    .column {
-      padding: 0 20px 0 12px !important;
-      &:last-of-type {
-        padding: 0 12px 0 20px !important;
-      }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    padding: 0 20px 0 12px !important;
+    &:last-of-type {
+      padding: 0 12px 0 20px !important;
     }
   }
-}
-@media (min-width: 600px) and (max-width: 767px) {
-  .column {
+  @media (min-width: 600px) and (max-width: 767px) {
     padding: 0 24px 0 !important;
   }
 }
-@media (max-width: 599px) {
-  .api-enterprise {
-    .our-container {
-      padding: 0;
-    }
-    .column {
-      padding: 0 12px 0 !important;
-    }
-  }
-}
-@media (max-width: 767px) {
-  .api {
-    margin-bottom: 30px;
-  }
-}
+
 @media (max-width: 1200px) {
   .api,
   .enterprise {

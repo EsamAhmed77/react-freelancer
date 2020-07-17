@@ -1,17 +1,12 @@
 .footer {
   background: linear-gradient(rgba(0, 14, 5, 0.959), rgba(1, 12, 8, 0.959));
-  .col-padding-12 {
-    padding: 0 12px !important;
-  }
   .top-footer {
     padding: 40px 0;
     .tf-right {
       .tf-logo {
         margin-bottom: 30px;
-        a {
-          img {
-            width: 140px;
-          }
+        img {
+          width: 140px;
         }
       }
       .tf-lang-supp {
@@ -36,11 +31,9 @@
         margin-bottom: 10px;
       }
       ul {
-        li {
-          a {
-            font-size: 14px;
-            color: rgb(211, 211, 211);
-          }
+        a {
+          font-size: 14px;
+          color: rgb(211, 211, 211);
         }
       }
       .social-media {
@@ -90,9 +83,9 @@
   }
 }
 @media (min-width: 768px) {
-  .stores{
+  .stores {
     margin-bottom: 25px;
-    .app-store{
+    .app-store {
       margin-bottom: 20px;
     }
   }
@@ -126,14 +119,12 @@
         }
       }
       .stores {
-        width: 60%;
         margin-bottom: 25px;
         & > * {
           display: inline-block;
         }
         .app-store {
-          width: 50%;
-          margin-right: 30px;
+          width: 45%;
         }
       }
     }
