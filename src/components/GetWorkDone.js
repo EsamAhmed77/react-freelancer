@@ -7,8 +7,11 @@ import { Category } from "./Blocks/CategoryBlock";
 
 const GetWorkDone = () => {
   return (
-    <div className="get-work-done" title="Hir FreeLancers & Find FreeLancing Jobs Online" >
-      <div className="our-container">
+    <div
+      className="get-work-done"
+      title="Hir FreeLancers & Find FreeLancing Jobs Online"
+    >
+      <div className="our-container p-0">
         <Row>
           <Col xs={12} className="text-center">
             <h2 className="gwd-header">
@@ -79,7 +82,7 @@ const GetWorkDone = () => {
             alt="seo"
             type="SEO"
           />
-          <Col xs={4} md={3} lg={1} className="hire-more">
+          <Col xs={4} md={3} lg={1} className="hire-more col-padding">
             <a href="/">
               <div className="cat">
                 <img

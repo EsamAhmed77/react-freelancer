@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="our-container p-0">
         <div className="top-footer">
           <Row>
-            <Col className="col-padding-12" xs={12} lg={4}>
+            <Col className="col-padding" xs={12} lg={4}>
               <div className="tf-right">
                 <div className="tf-logo border-bot">
                   <a href="/">
@@ -35,7 +35,7 @@ const Footer = () => {
             <Col className="p-0" xs={12} lg={8}>
               <div className="tf-left">
                 <Row>
-                  <Col className="col-padding-12 column" xs={12} md={3}>
+                  <Col className="col-padding column" xs={12} md={3}>
                     <div className="list-title">Freelancer</div>
                     <ul className="list-unstyled">
                       <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </Col>
-                  <Col className="col-padding-12 column" xs={12} md={3}>
+                  <Col className="col-padding column" xs={12} md={3}>
                     <div className="list-title">About</div>
                     <ul className="list-unstyled">
                       <li>
@@ -99,7 +99,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </Col>
-                  <Col className="col-padding-12 column" xs={12} md={3}>
+                  <Col className="col-padding column" xs={12} md={3}>
                     <div className="list-title">Terms</div>
                     <ul className="list-unstyled">
                       <li>
@@ -119,7 +119,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </Col>
-                  <Col className="col-padding-12 column" xs={12} md={3}>
+                  <Col className="col-padding column" xs={12} md={3}>
                     <div className="list-title">Apps</div>
                     <div className="stores">
                       <div className="app-store">
@@ -171,15 +171,15 @@ const Footer = () => {
       <div className="bot-footer">
         <div className="our-container p-0">
           <Row>
-            <Col className="col-padding-12 display-sm-none" md={6} lg={3}>
+            <Col className="col-padding display-sm-none" md={6} lg={3}>
               <span className="total-number">45,838,735</span>
               <span className="user-job">Registered Users</span>
             </Col>
-            <Col className="col-padding-12 display-sm-none" md={6} lg={3}>
+            <Col className="col-padding display-sm-none" md={6} lg={3}>
               <span className="total-number">45,838,735</span>
               <span className="user-job">Registered Users</span>
             </Col>
-            <Col className="copyrights-col col-padding-12" xs={12} lg={6}>
+            <Col className="copyrights-col col-padding" xs={12} lg={6}>
               <span className="copyrights">
                 Freelancer ® is a registered Trademark of Freelancer Technology
                 Pty Limited (ACN 141 959 042)
