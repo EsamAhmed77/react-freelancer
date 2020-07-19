@@ -19,45 +19,38 @@
 }
 
 @media (max-width: 767px) {
-  .AsUsedBy {
-    .companies {
-      padding: 20px 0 0;
-      flex-wrap: wrap;
-      .asUsedBy-title {
-        width: 100%;
-        margin-right: 0;
-        span {
-          font-size: 16px !important;
-          margin: 0 auto 20px;
-        }
+  .companies {
+    padding: 20px 0 0;
+    flex-wrap: wrap;
+    .asUsedBy-title {
+      width: 100%;
+      margin-right: 0;
+      span {
+        font-size: 16px !important;
+        margin: 0 auto 20px;
       }
-      .companies-logo {
-        width: 25%;
-        margin-bottom: 20px;
-        text-align: right;
-        &:nth-of-type(3) {
-          text-align: center;
-        }
-        &:nth-of-type(2),
-        &:nth-of-type(6) {
-          text-align: left;
-        }
+    }
+    .companies-logo {
+      width: 25%;
+      margin-bottom: 20px;
+      text-align: right;
+      &:nth-of-type(3) {
+        text-align: center;
+      }
+      &:nth-of-type(2),
+      &:nth-of-type(6) {
+        text-align: left;
       }
     }
   }
 }
 @media (min-width: 768px) {
-  .AsUsedBy {
-    .our-container {
-      .companies {
-        height: 100px;
-        .companies-logo {
-          display: inline-block;
-          margin: 0 15px 0 0;
-          &:last-of-type {
-            margin-right: 0;
-          }
-        }
+  .companies {
+    height: 100px;
+    .companies-logo {
+      margin-right: 15px;
+      &:last-of-type {
+        margin-right: 0;
       }
     }
   }

@@ -2,7 +2,6 @@
   padding: 90px 0 0;
   flex-direction: column;
   display: flex;
-
   .work-title {
     margin-bottom: 50px;
   }
@@ -10,7 +9,6 @@
     font-size: 30px;
     color: rgb(0, 0, 0);
     font-weight: 700;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .jobs-type {
     .job {
@@ -26,8 +24,7 @@
         font-size: 18px;
         color: rgb(105, 105, 105);
         font-weight: 600;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.5;
+        
       }
     }
   }
@@ -53,7 +50,7 @@
     .jobs-type {
       .job {
         padding: 0 10px;
-        &:last-of-type{
+        &:last-of-type {
           margin-bottom: 0;
         }
         img {

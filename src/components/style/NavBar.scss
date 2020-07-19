@@ -8,7 +8,6 @@
         vertical-align: middle;
         text-decoration: none;
         font-size: 16px;
-        font-family: sans-serif;
         &.logo {
           img {
             width: 140px;
@@ -24,7 +23,7 @@
         }
         &.nav-btn {
           padding: 10px 13px;
-          margin: 0 10px;
+          margin: 0 5px;
           color: #f7f7f7;
           font-weight: 600;
           font-size: 14px;
@@ -39,19 +38,11 @@
   }
 }
 @media (max-width: 767px) {
-  .our-navbar {
-    .NavBar {
-      .nav-left {
-        a.nav-links:nth-child(2),
-        a.nav-links:nth-child(3) {
-          display: none;
-        }
-      }
-    }
-    .nav-right {
-      a.nav-btn {
-        display: none;
-      }
+  .NavBar {
+    .nav-left a.nav-links:nth-child(2),
+    .nav-left a.nav-links:nth-child(3),
+    .nav-right a.nav-btn {
+      display: none;
     }
   }
 }
