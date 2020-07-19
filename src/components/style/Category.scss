@@ -1,10 +1,13 @@
 .category-container {
-  a:hover{
+  padding: 0 12px !important;
+  a:hover {
     color: #181818;
   }
   .category {
     height: 104px;
+    text-align: center;
     margin-bottom: 24px;
+
     .category-img {
       margin-bottom: 15px;
       vertical-align: baseline;
@@ -28,6 +31,7 @@
     font-size: 14px !important;
   }
 }
+
 .jobs-category {
   margin-bottom: 5px;
   i {

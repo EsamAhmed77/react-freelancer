@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Image } from "react-bootstrap";
+import { fetchNeedWorkDone } from "../redux/actions";
 
 import "./style/NeedWorkDone.scss";
 import "./style/Main.scss";
 
 const NeedWorkDone = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchNeedWorkDone());
+  }, [dispatch]);
+
+  const needWorkDone = useSelector((state) => state.needWorkDone);
   return (
     <div
       className="our-container"
@@ -15,47 +23,17 @@ const NeedWorkDone = () => {
           <span>Need work done?</span>
         </div>
         <div className="jobs-type">
-          <div className="job text-center">
-            <div className="job-img">
-              <Image
-                src="https://www.f-cdn.com/assets/main/en/assets/home/need-work-done/post-a-job.svg"
-                alt="Post a job"
-              ></Image>
-            </div>
-            <span className="job-title">Post a job</span>
-            <p className="job-description">
-              It's easy. Simply post a job you need completed and receive
-              competitive bids from freelancers within minutes.
-            </p>
-          </div>
-          <div className="job text-center">
-            <div className="job-img">
-              <Image
-                src="https://www.f-cdn.com/assets/main/en/assets/home/need-work-done/choose-freelancers.svg"
-                alt="Choose freelancers"
-              ></Image>
-            </div>
-            <span className="job-title">Choose freelancers</span>
-            <p className="job-description">
-              Whatever your needs, there will be a freelancer to get it done:
-              from web design, mobile app development, virtual assistants,
-              product manufacturing, and graphic design (and a whole lot more).
-            </p>
-          </div>
-          <div className="job text-center">
-            <div className="job-img">
-              <Image
-                src="https://www.f-cdn.com/assets/main/en/assets/home/need-work-done/pay-safely.svg"
-                alt="Pay safely"
-              ></Image>
-            </div>
-            <span className="job-title">Pay safely</span>
-            <p className="job-description">
-              With secure payments and thousands of reviewed professionals to
-              choose from, Freelancer.com is the simplest and safest way to get
-              work done online.
-            </p>
-          </div>
+          {needWorkDone.map(({ id, img, alt, description }) => {
+            return (
+              <div key={id} className="job text-center">
+                <div className="job-img">
+                  <Image src={img} alt={alt}></Image>
+                </div>
+                <span className="job-title">{alt}</span>
+                <p className="job-description">{description}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
