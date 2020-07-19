@@ -4,12 +4,7 @@ import Col from "react-bootstrap/Col";
 
 export const Category = (props) => {
   return (
-    <Col
-      xs={4}
-      md={3}
-      lg={1}
-      className={`category-container ${props.className}`}
-    >
+    <Col className={`category-container ${props.className}`} xs={4} md={3} lg={1}>
       <a href="/">
         <div className="category">
           <img className="category-img" src={props.img} alt={props.alt} />

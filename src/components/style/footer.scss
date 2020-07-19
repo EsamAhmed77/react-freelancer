@@ -50,7 +50,9 @@
           justify-content: space-between;
         }
         li {
-          flex-basis: 23%;
+          @media (min-width: 600px) {
+            flex-basis: 23%;
+          }
           a {
             i {
               font-size: 20px;
@@ -90,9 +92,9 @@
   }
 }
 @media (min-width: 768px) {
-  .stores{
+  .stores {
     margin-bottom: 25px;
-    .app-store{
+    .app-store {
       margin-bottom: 20px;
     }
   }
@@ -126,15 +128,16 @@
         }
       }
       .stores {
-        width: 60%;
         margin-bottom: 25px;
         & > * {
           display: inline-block;
         }
         .app-store {
-          width: 50%;
-          margin-right: 30px;
+          width: 47%;
         }
+      }
+      .social-media {
+        justify-content: space-between !important;
       }
     }
   }

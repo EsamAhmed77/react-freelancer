@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+//
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+//
 import "./style/Main.scss";
 import "./style/CrowdFavorite.scss";
+//
 import CardBlock from "./Blocks/CardBlock";
+import { fetchCrowdFavorite } from "../redux/actions";
 
 const CrowdFavorite = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchCrowdFavorite());
+  }, [dispatch]);
+
+  const crowdFavorite = useSelector((state) => state.crowdFavorite);
   return (
     <div
       className="crowd-favorite"
@@ -22,48 +32,13 @@ const CrowdFavorite = () => {
           </Col>
         </Row>
         <Row className="scroller">
-          <Col className="padding-sm" xs={8} sm={6} md={6} lg={4}>
-            <CardBlock
-              src="https://www.f-cdn.com/assets/main/en/assets/home/showcase/website-development.png"
-              title="Website Development"
-              price="From $300 USD"
-            />
-          </Col>
-          <Col className="padding-sm" xs={8} sm={6} md={6} lg={4}>
-            <CardBlock
-              src="https://www.f-cdn.com/assets/main/en/assets/home/showcase/graphic-design.png"
-              title="Graphic Design "
-              price="From $100 USD "
-            />
-          </Col>
-          <Col className="padding-sm" xs={8} sm={6} md={6} lg={4}>
-            <CardBlock
-              src="https://www.f-cdn.com/assets/main/en/assets/home/showcase/logo-design.png"
-              title="Logo Design"
-              price="From $50 USD"
-            />
-          </Col>
-          <Col className="padding-sm" xs={8} sm={6} md={6} lg={4}>
-            <CardBlock
-              src="https://www.f-cdn.com/assets/main/en/assets/home/showcase/marketing.png"
-              title="Marketing"
-              price=" From $150 USD"
-            />
-          </Col>
-          <Col className="padding-sm" xs={8} sm={6} md={6} lg={4}>
-            <CardBlock
-              src="https://www.f-cdn.com/assets/main/en/assets/home/showcase/writing.png"
-              title="Writing"
-              price="From $50 USD"
-            />
-          </Col>
-          <Col className="padding-sm" xs={8} sm={6} md={6} lg={4}>
-            <CardBlock
-              src="https://www.f-cdn.com/assets/main/en/assets/home/showcase/mobile-app.png"
-              title="Mobile App"
-              price=" From $300 USD / hour"
-            />
-          </Col>
+          {crowdFavorite.map(({ id, img, title, price }) => {
+            return (
+              <Col key={id} className="padding-sm" xs={8} sm={6} md={6} lg={4}>
+                <CardBlock src={img} title={title} price={price} />
+              </Col>
+            );
+          })}
         </Row>
       </div>
     </div>

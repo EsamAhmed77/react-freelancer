@@ -23,14 +23,14 @@ const NeedWorkDone = () => {
           <span>Need work done?</span>
         </div>
         <div className="jobs-type">
-          {needWorkDone.map((item) => {
+          {needWorkDone.map(({ id, img, alt, description }) => {
             return (
-              <div className="job text-center">
-                  <div className="job-img">
-                    <Image src={item.img} alt={item.alt}></Image>
-                  </div>
-                  <span className="job-title">{item.alt}</span>
-                  <p className="job-description">{item.description}</p>
+              <div key={id} className="job text-center">
+                <div className="job-img">
+                  <Image src={img} alt={alt}></Image>
+                </div>
+                <span className="job-title">{alt}</span>
+                <p className="job-description">{description}</p>
               </div>
             );
           })}

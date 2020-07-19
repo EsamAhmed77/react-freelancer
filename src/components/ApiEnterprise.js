@@ -1,9 +1,20 @@
-import React from "react";
-import "./style/api-enterprise.scss";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+//
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+//
+import "./style/api-enterprise.scss";
+import { fetchApiEnterprise } from "../redux/actions";
 
 const ApiEnterprise = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchApiEnterprise());
+  }, [dispatch]);
+
+  const apiEnterprise = useSelector((state) => state.apiEnterprise);
   return (
     <div
       className="api-enterprise"
@@ -11,46 +22,29 @@ const ApiEnterprise = () => {
     >
       <div className="our-container">
         <Row className=" justify-content-around">
-          <Col className="column" xs={12} sm={12} md={6}>
-            <div className="api">
-              <div className="api-img"></div>
-              <div className="api-details">
-                <div className="details">
-                  <span className="api-title">FREELANCER API</span>
-                  <h5 className="api-header">
-                    43 million professionals on demand
-                  </h5>
-                  <p className="api-description">
-                    Why hire people when you can simply integrate our talented
-                    cloud workforce instead?
-                  </p>
+          {apiEnterprise.map((item) => {
+            return (
+              <Col key={item.id} className="column" xs={12} sm={12} md={6}>
+                <div className={item.Class || ""}>
+                  <div className={item.Class + "-img"}></div>
+                  <div className={item.Class + "-details"}>
+                    <div className="details">
+                      <span className={item.Class + "-title"}>
+                        {item.title}
+                      </span>
+                      <h5 className={item.Class + "-header"}>{item.header}</h5>
+                      <p className={item.Class + "-description"}>
+                        {item.description}
+                      </p>
+                    </div>
+                    <a className={item.Class + "-btn"} href="/">
+                      {item.btn}
+                    </a>
+                  </div>
                 </div>
-                <a className="api-btn" href="/">
-                  view documentation
-                </a>
-              </div>
-            </div>
-          </Col>
-          <Col className="column" xs={12} sm={12} md={6}>
-            <div className="enterprise">
-              <div className="enterprise-img"></div>
-              <div className="enterprise-details">
-                <div className="details">
-                  <span className="enterprise-title">FREELANCER ENTERPRISE</span>
-                  <h5 className="enterprise-header">
-                    Company budget? Get more done for less
-                  </h5>
-                  <p className="enterprise-description">
-                    Use our workforce of 43 million to help your business
-                    achieve more.
-                  </p>
-                </div>
-                <a className="enterprise-btn" href="/">
-                  contact us
-                </a>
-              </div>
-            </div>
-          </Col>
+              </Col>
+            );
+          })}
         </Row>
       </div>
     </div>

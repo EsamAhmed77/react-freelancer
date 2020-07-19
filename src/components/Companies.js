@@ -24,8 +24,8 @@ const Companies = () => {
           </div>
           {asUsedBy.map(({ img, alt, id }) => {
             return (
-              <div className="companies-logo">
-                <img className="img-fluid" key={id} src={img} alt={alt} />
+              <div className="companies-logo"  key={id}>
+                <img className="img-fluid" src={img} alt={alt} />
               </div>
             );
           })}
