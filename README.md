@@ -1,4 +1,4 @@
-# React-App
+# React-Freelancer
 
 ## Table of contents
 * [General info](#general-info)
