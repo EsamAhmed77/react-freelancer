@@ -1,10 +1,11 @@
 import React from "react";
 import "../style/Category.scss";
 import Col from "react-bootstrap/Col";
+import "../style/Main.scss";
 
 export const Category = (props) => {
   return (
-    <Col className={`category-container ${props.className}`} xs={4} md={3} lg={1}>
+    <Col className={`col-padding ${props.className}`} xs={4} md={3} lg={1}>
       <a href="/">
         <div className="category">
           <img className="category-img" src={props.img} alt={props.alt} />
